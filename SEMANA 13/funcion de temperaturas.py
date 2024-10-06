@@ -30,7 +30,7 @@ def calcular_promedio_temperaturas(temperaturas, ciudades, dias_semana, semanas)
             # Sumar la temperatura promedio semanal a la suma total de la ciudad
             suma_total_ciudad += suma_semana
 
-        # Calcular el promedio general de la ciudad durante todas las semanas
+        # Calcular el promedio general de las ciudades durante todas las semanas
         promedio_ciudad = suma_total_ciudad / (semanas * len(dias_semana))
         promedios_ciudades.append(promedio_ciudad)  # Almacenar el promedio de la ciudad
         print(f"\nPromedio general de {ciudad}: {promedio_ciudad:.2f}°C\n")
