@@ -1,6 +1,4 @@
 import random
-
-
 # Función para calcular el promedio de temperatura de una ciudad
 def calcular_promedio_temperaturas(temperaturas, ciudades, dias_semana, semanas):
 
